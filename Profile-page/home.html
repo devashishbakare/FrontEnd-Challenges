@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Profile page</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <!-- <div class="profile-container">
+        <div class="header">
+          <img src="<%= user.avatar %>" alt="Profile Picture" class="profile-picture">
+          <h1 class="username"><%= user.username %></h1>
+        </div>
+        <div class="bio">
+          <h2>Bio</h2>
+          <p><%= user.bio %></p>
+        </div>
+        <div class="stats">
+          <h2>Stats</h2>
+          <ul>
+            <li>Posts: <%= user.posts.length %></li>
+            <li>Followers: <%= user.followers.length %></li>
+            <li>Following: <%= user.following.length %></li>
+          </ul>
+        </div>
+        <div class="posts">
+          <h2>Recent Posts</h2>
+          <% user.posts.forEach(function(post) { %>
+            <div class="post">
+              <p><%= post.content %></p>
+            </div>
+          <% }); %>
+        </div>
+      </div> -->
+
+      <div id = "profile-heading-container">
+            <div id="profile-background-img">
+                <span>
+                    <img src="backimgjpg.jpg" alt="background-photo" id ="background-img">
+                    <button id ="edit-cover-photo"> Update Cover Photo</button>
+                </span>
+            </div>
+            <div>
+                <img src="profile2.jpg" alt="profile-photo" id="profile-photo">
+                <span id = "upload-profile-div">
+                    <a href="">
+                        <img src="imageIcon.png" alt="upload profile page image" id ="upload-profile-image">
+                    </a>
+                </span>
+                
+            </div>
+            <div id = "profile-info">
+                <p class = "profile-info-text">Robert Nickman</p>
+                <p class = "profile-info-count">Post : 24</p>
+            </div>
+            
+      </div>
+      
+
+</body>
+</html>
+
